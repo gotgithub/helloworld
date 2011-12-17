@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-22 12:38+0800\n"
+"POT-Creation-Date: 2011-12-22 13:11+0800\n"
 "PO-Revision-Date: 2011-12-22 12:38+0800\n"
 "Last-Translator: Jiang Xin <>\n"
 "Language-Team: Chinese (simplified)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: main.c:12
+#: main.c:14
 #, c-format
 msgid ""
 "Hello world example %s\n"
@@ -34,13 +34,31 @@ msgid ""
 "            this help screen.\n"
 "\n"
 msgstr ""
+"Hello world 示例 %s\n"
+"版权所有 蒋鑫 <jiangxin AT ossxp DOT com>, 2009\n"
+"\n"
+"用法:\n"
+"    hello\n"
+"            世界你好。\n"
+"\n"
+"    hello -v, --version\n"
+"            显示版本。\n"
+"\n"
+"    hello -h, -help\n"
+"            显示本帮助页。\n"
+"\n"
 
-#: main.c:38
+#: main.c:65
 #, c-format
 msgid "Hello world.\n"
-msgstr ""
+msgstr "世界你好。\n"
 
-#: main.c:27
+#: main.c:63
+#, c-format
+msgid "Hi, %s.\n"
+msgstr "嗨，%s 。\n"
+
+#: main.c:29
 #, c-format
 msgid "hello version %s\n"
-msgstr ""
+msgstr "hello 版本 %s\n"
