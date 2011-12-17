@@ -34,13 +34,26 @@ msgid ""
 "            this help screen.\n"
 "\n"
 msgstr ""
+"Hello world 示例 %s\n"
+"版权所有 蒋鑫 <jiangxin AT ossxp DOT com>, 2009\n"
+"\n"
+"用法:\n"
+"    hello\n"
+"            世界你好。\n"
+"\n"
+"    hello -v, --version\n"
+"            显示版本。\n"
+"\n"
+"    hello -h, -help\n"
+"            显示本帮助页。\n"
+"\n"
 
 #: main.c:38
 #, c-format
 msgid "Hello world.\n"
-msgstr ""
+msgstr "世界你好。\n"
 
 #: main.c:27
 #, c-format
 msgid "hello version %s\n"
-msgstr ""
+msgstr "hello 版本 %s\n"
