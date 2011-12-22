@@ -34,7 +34,7 @@ main(int argc, char **argv)
                 show_version();
                 return 0;
     } else {
-        return usage(1);
+        printf("Hi, %s.\n", argv[1]);
     }
     return 0;
 }
