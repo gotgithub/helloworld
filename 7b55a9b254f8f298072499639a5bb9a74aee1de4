@@ -1,0 +1,4 @@
+Usage:
+
+    $ ./hello "user name"
+    Hi, user name.
