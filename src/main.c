@@ -50,10 +50,10 @@ main(int argc, char **argv)
 
     /* unknown arguments */
     if (argc > 0) {
-        return usage(1);
+        printf ("Hi, %s.\n", argv[0]);
+    } else {
+        printf ("Hello world.\n");
     }
-
-    printf ("Hello world.\n");
     return 0;
 }
 
