@@ -1,9 +1,9 @@
 OBJECTS = main.o
 TARGET = hello
 
-all: $(TARGET)
+all: mo $(TARGET)
 
-$(TARGET): $(OBJECTS) mo
+$(TARGET): $(OBJECTS)
 	$(CC) -lintl -o $@ $(OBJECTS)
 
 POT=locale/helloworld.pot
@@ -23,9 +23,8 @@ mo:: locale/zh_CN/LC_MESSAGES/helloworld.mo
 locale/zh_CN/LC_MESSAGES/helloworld.mo: locale/zh_CN/LC_MESSAGES/helloworld.po
 	msgfmt -o $@ $<
 
-main.o: version.h
-
-version.h: new_header
+main.o:: | new_header
+main.o:: version.h
 
 new_header:
 	@sed -e "s#<version>#$$(git describe --dirty --always)#g" < version.h.in > version.h.tmp
