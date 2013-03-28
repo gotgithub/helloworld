@@ -38,6 +38,6 @@ new_header:
 clean:
 	rm -f $(TARGET) $(OBJECTS) version.h
 
-.PHONY: all clean
+.PHONY: all clean edit
 
 # vim: noet
