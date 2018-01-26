@@ -16,7 +16,6 @@
 * SSH协议: `ssh://git@github.com/gotgithub/helloworld.git` 。
 
 ## 克隆版本库
-
 操作示例：
 
     $ git clone git://github.com/gotgithub/helloworld.git
